@@ -1,0 +1,81 @@
+App_ID,App_Name,Business_Owner,Technical_Owner,Environment,Criticality,Internet_Exposed,Hosting_Model,PAM_Onboarded,Password_Mgmt,Auth_Framework_Integration,SSO_Enabled,MFA_Enforced,JIT_Integration,SAST_Status,SCA_Status,Hardcoded_Secret_Count,Regulatory_Framework,Compliance_Status,Risk_Rating,Remediation_Owner,Last_Updated
+APP-100,App-ITSM-00,Engineering,IAM Team,DR,Low,No,Hybrid,Not Onboarded,Not Configured,Integrated,Yes,No,Not Integrated,Covered,Covered,2,HIPAA,Compliant,Low,Platform Ops,2026-07-29
+APP-101,App-ERP-01,Operations,AppSec,Production,High,No,SaaS,Not Onboarded,Automatic,Partial,No,Yes,Not Integrated,Not Covered,Covered,2,ISO 27001,Non-Compliant,Medium,Platform Ops,2026-08-08
+APP-102,App-ITSM-02,Finance,SOC,Production,High,No,PaaS,Onboarded,Not Configured,Integrated,Yes,Yes,Partial,Not Covered,Covered,8,NIST 800-53,Non-Compliant,Low,Network Ops,2026-07-31
+APP-103,App-Billing-03,Operations,Platform Ops,Production,Low,No,PaaS,Pending,Not Configured,Integrated,Yes,Yes,Partial,Covered,Covered,2,SOX,Not Assessed,High,Platform Ops,2026-08-26
+APP-104,App-Vault-04,Engineering,IAM Team,Production,Critical,No,PaaS,Exempted,Automatic,Exempted,Yes,Partial,Integrated,Covered,Covered,0,PCI DSS,Partially Compliant,Medium,DBA Team,2026-08-09
+APP-105,App-SIEM-05,Legal,DBA Team,DR,Medium,No,IaaS,Pending,Automatic,Integrated,No,Yes,Integrated,Covered,Covered,8,NIST 800-53,Compliant,Medium,Network Ops,2026-08-06
+APP-106,App-Payroll-06,Marketing,DBA Team,UAT,Medium,Yes,Hybrid,Onboarded,Automatic,Not Integrated,No,Yes,Not Applicable,Partial,Partial,0,NIST 800-53,Compliant,Low,SOC,2026-08-20
+APP-107,App-CRM-07,Engineering,Network Ops,UAT,High,Yes,On-Premises,Onboarded,Automatic,Integrated,No,No,Partial,Not Covered,Covered,1,ISO 27001,Compliant,Medium,IAM Team,2026-08-04
+APP-108,App-CRM-08,Engineering,Platform Ops,QA,Critical,No,PaaS,Onboarded,Automatic,Integrated,No,No,Integrated,Covered,Not Covered,2,NIST 800-53,Exception Approved,Medium,SOC,2026-08-01
+APP-109,App-Billing-09,Finance,Network Ops,Development,Critical,No,Hybrid,Not Onboarded,Not Configured,Integrated,Yes,Yes,Integrated,Covered,Covered,3,SOX,Compliant,High,AppSec,2026-08-20
+APP-110,App-Payroll-10,Finance,Network Ops,Production,High,No,On-Premises,Not Onboarded,Manual,Integrated,No,Yes,Integrated,Covered,Not Covered,5,SOX,Partially Compliant,High,IAM Team,2026-08-10
+APP-111,App-SIEM-11,Legal,DBA Team,UAT,Medium,No,On-Premises,Onboarded,Manual,Not Integrated,No,Yes,Partial,Covered,Covered,6,ISO 27001,Compliant,High,Platform Ops,2026-08-02
+APP-112,App-ERP-12,Engineering,IAM Team,UAT,Low,No,IaaS,Onboarded,Automatic,Not Integrated,No,Partial,Integrated,Not Covered,Covered,8,SOX,Partially Compliant,Medium,DBA Team,2026-08-03
+APP-113,App-ITSM-13,Legal,SOC,QA,Critical,No,On-Premises,Onboarded,Manual,Integrated,Yes,No,Not Integrated,Covered,Not Covered,5,SOX,Compliant,Medium,Platform Ops,2026-08-09
+APP-114,App-Payroll-14,Marketing,AppSec,Production,Medium,No,PaaS,Onboarded,Manual,Not Integrated,Yes,Yes,Not Integrated,Covered,Covered,6,PCI DSS,Non-Compliant,High,Platform Ops,2026-08-06
+APP-115,App-Payroll-15,Marketing,Platform Ops,DR,Low,Yes,Hybrid,Onboarded,Manual,Integrated,No,No,Not Integrated,Covered,Not Covered,7,NIST 800-53,Compliant,Medium,AppSec,2026-07-28
+APP-116,App-ITSM-16,Marketing,DBA Team,Production,Low,No,IaaS,Pending,Automatic,Integrated,Yes,Yes,Not Integrated,Partial,Covered,1,ISO 27001,Compliant,Medium,Platform Ops,2026-08-09
+APP-117,App-Payroll-17,Operations,AppSec,QA,Critical,No,IaaS,Not Onboarded,Automatic,Integrated,Yes,Partial,Not Applicable,Covered,Covered,0,SOX,Compliant,Medium,DevOps,2026-08-03
+APP-118,App-Billing-18,Security,SOC,DR,High,Yes,Hybrid,Onboarded,Manual,Integrated,Yes,Yes,Partial,Covered,Covered,7,HIPAA,Non-Compliant,Low,DevOps,2026-08-23
+APP-119,App-Vault-19,Marketing,SOC,Production,Critical,No,Hybrid,Onboarded,Automatic,Not Integrated,No,Yes,Not Applicable,Partial,Covered,4,SOX,Compliant,Medium,SOC,2026-08-21
+APP-120,App-ERP-20,HR,AppSec,QA,Low,No,On-Premises,Onboarded,Automatic,Not Integrated,No,No,Integrated,Not Covered,Not Covered,6,NIST 800-53,Compliant,Low,IAM Team,2026-08-10
+APP-121,App-Billing-21,Finance,DBA Team,QA,Medium,No,IaaS,Not Onboarded,Automatic,Integrated,No,Yes,Integrated,Covered,Not Covered,1,HIPAA,Compliant,High,SOC,2026-08-02
+APP-122,App-Vault-22,HR,DBA Team,QA,Medium,No,On-Premises,Onboarded,Automatic,Partial,No,Yes,Integrated,Not Covered,Covered,8,ISO 27001,Compliant,Medium,Platform Ops,2026-08-20
+APP-123,App-SIEM-23,Finance,DevOps,Production,Low,Yes,PaaS,Onboarded,Automatic,Partial,Yes,Yes,Not Integrated,Covered,Covered,4,PCI DSS,Compliant,Medium,IAM Team,2026-07-31
+APP-124,App-Vault-24,Security,Network Ops,Production,High,No,PaaS,Not Onboarded,Automatic,Not Integrated,Yes,Yes,Integrated,Covered,Not Covered,4,SOX,Compliant,Critical,DevOps,2026-08-14
+APP-125,App-CRM-25,Marketing,DevOps,UAT,Low,Yes,SaaS,Onboarded,Not Configured,Integrated,No,No,Partial,Not Covered,Not Covered,1,SOX,Non-Compliant,Low,IAM Team,2026-08-10
+APP-126,App-Billing-26,Finance,Platform Ops,QA,High,No,Hybrid,Onboarded,Not Configured,Integrated,Yes,Yes,Not Integrated,Partial,Not Covered,6,NIST 800-53,Compliant,High,SOC,2026-08-02
+APP-127,App-Billing-27,Engineering,IAM Team,DR,Medium,No,SaaS,Pending,Manual,Integrated,Yes,Yes,Partial,Covered,Not Covered,7,NIST 800-53,Non-Compliant,High,DevOps,2026-08-21
+APP-128,App-CRM-28,HR,DevOps,UAT,Medium,No,Hybrid,Onboarded,Automatic,Not Integrated,Yes,Yes,Not Integrated,Partial,Not Covered,0,HIPAA,Compliant,High,SOC,2026-08-20
+APP-129,App-Payroll-29,Legal,Network Ops,Development,Low,No,SaaS,Onboarded,Exempted,Integrated,No,No,Not Integrated,Not Covered,Not Covered,4,ISO 27001,Compliant,Low,DevOps,2026-08-12
+APP-130,App-ERP-30,Marketing,DevOps,Production,High,No,SaaS,Onboarded,Automatic,Integrated,Yes,Yes,Integrated,Partial,Partial,0,HIPAA,Compliant,Low,Network Ops,2026-08-21
+APP-131,App-HR-31,Legal,Network Ops,Development,Low,No,Hybrid,Not Onboarded,Automatic,Not Integrated,No,No,Not Integrated,Covered,Covered,0,ISO 27001,Compliant,Low,Network Ops,2026-08-18
+APP-132,App-SIEM-32,Operations,IAM Team,DR,Medium,No,IaaS,Onboarded,Exempted,Integrated,No,Partial,Integrated,Not Covered,Partial,0,NIST 800-53,Compliant,Low,Network Ops,2026-08-13
+APP-133,App-ERP-33,HR,Platform Ops,Production,Medium,No,SaaS,Onboarded,Automatic,Integrated,No,Yes,Not Applicable,Covered,Partial,8,SOX,Non-Compliant,High,IAM Team,2026-08-04
+APP-134,App-HR-34,Security,DevOps,Development,Critical,No,On-Premises,Onboarded,Automatic,Integrated,Yes,No,Not Integrated,Covered,Partial,0,NIST 800-53,Compliant,Low,DBA Team,2026-08-08
+APP-135,App-Payroll-35,Marketing,DevOps,Development,Critical,Yes,SaaS,Exempted,Manual,Integrated,Yes,Yes,Integrated,Partial,Covered,0,PCI DSS,Compliant,Medium,IAM Team,2026-08-10
+APP-136,App-HR-36,Security,Platform Ops,QA,Critical,Yes,SaaS,Not Onboarded,Manual,Not Integrated,No,No,Not Integrated,Covered,Not Covered,0,HIPAA,Compliant,Medium,Network Ops,2026-08-16
+APP-137,App-Payroll-37,Legal,DevOps,QA,Medium,Yes,SaaS,Exempted,Manual,Integrated,Yes,Yes,Partial,Not Covered,Not Covered,2,HIPAA,Compliant,High,Network Ops,2026-08-25
+APP-138,App-Billing-38,Operations,Network Ops,Production,High,No,IaaS,Onboarded,Exempted,Integrated,No,Partial,Integrated,Covered,Not Covered,6,PCI DSS,Non-Compliant,High,Network Ops,2026-08-05
+APP-139,App-CRM-39,Finance,IAM Team,DR,Critical,No,IaaS,Pending,Automatic,Not Integrated,Yes,Yes,Integrated,Covered,Not Covered,3,HIPAA,Compliant,Critical,Network Ops,2026-07-28
+APP-140,App-CRM-40,Security,DBA Team,Production,High,No,SaaS,Onboarded,Automatic,Partial,Yes,Yes,Integrated,Partial,Partial,0,SOX,Compliant,Medium,SOC,2026-08-18
+APP-141,App-HR-41,Legal,Network Ops,QA,Medium,No,PaaS,Onboarded,Manual,Exempted,No,No,Integrated,Not Covered,Covered,2,NIST 800-53,Compliant,Medium,SOC,2026-08-11
+APP-142,App-ITSM-42,Engineering,DevOps,QA,High,No,IaaS,Onboarded,Automatic,Integrated,Yes,Yes,Not Integrated,Not Covered,Covered,1,PCI DSS,Compliant,High,DBA Team,2026-08-11
+APP-143,App-Payroll-43,Operations,DevOps,Production,Low,Yes,Hybrid,Exempted,Automatic,Integrated,Yes,No,Integrated,Covered,Covered,7,ISO 27001,Non-Compliant,High,AppSec,2026-08-14
+APP-144,App-Payroll-44,HR,DevOps,Development,Medium,No,IaaS,Not Onboarded,Automatic,Not Integrated,No,Partial,Integrated,Covered,Partial,7,ISO 27001,Compliant,Low,SOC,2026-08-26
+APP-145,App-Vault-45,Engineering,Network Ops,DR,Critical,No,PaaS,Onboarded,Not Configured,Not Integrated,Yes,Yes,Partial,Covered,Partial,1,PCI DSS,Not Assessed,Medium,IAM Team,2026-08-26
+APP-146,App-SIEM-46,Engineering,IAM Team,QA,Low,Yes,Hybrid,Pending,Manual,Exempted,No,Yes,Not Integrated,Covered,Covered,4,ISO 27001,Compliant,High,IAM Team,2026-08-20
+APP-147,App-CRM-47,Engineering,Platform Ops,Development,High,Yes,Hybrid,Onboarded,Manual,Not Integrated,No,Yes,Integrated,Partial,Not Covered,2,SOX,Exception Approved,High,DevOps,2026-08-06
+APP-148,App-Payroll-48,Operations,AppSec,DR,Critical,No,SaaS,Onboarded,Automatic,Exempted,Yes,Partial,Partial,Partial,Covered,8,NIST 800-53,Non-Compliant,Low,SOC,2026-08-09
+APP-149,App-Billing-49,Finance,SOC,UAT,High,No,SaaS,Onboarded,Manual,Integrated,No,Yes,Integrated,Covered,Partial,4,NIST 800-53,Compliant,Low,AppSec,2026-08-11
+APP-150,App-Payroll-50,Engineering,Platform Ops,Production,Medium,No,Hybrid,Onboarded,Automatic,Integrated,Yes,Yes,Partial,Partial,Covered,5,NIST 800-53,Compliant,Critical,Network Ops,2026-08-02
+APP-151,App-Billing-51,Operations,DevOps,UAT,Medium,No,Hybrid,Not Onboarded,Manual,Integrated,Yes,Yes,Integrated,Covered,Covered,2,SOX,Partially Compliant,High,DBA Team,2026-08-12
+APP-152,App-Billing-52,Marketing,AppSec,QA,High,No,Hybrid,Onboarded,Automatic,Integrated,Yes,Partial,Not Applicable,Not Covered,Partial,7,HIPAA,Compliant,Low,Network Ops,2026-08-24
+APP-153,App-Billing-53,Legal,Network Ops,UAT,Critical,No,IaaS,Not Onboarded,Not Configured,Integrated,Yes,Yes,Integrated,Covered,Partial,1,ISO 27001,Partially Compliant,Medium,AppSec,2026-08-15
+APP-154,App-HR-54,Legal,DevOps,Production,High,No,PaaS,Onboarded,Automatic,Not Integrated,Yes,Yes,Not Integrated,Covered,Covered,7,HIPAA,Compliant,High,Network Ops,2026-08-19
+APP-155,App-Billing-55,Legal,AppSec,UAT,Low,Yes,PaaS,Pending,Exempted,Exempted,Yes,Partial,Not Integrated,Covered,Covered,8,NIST 800-53,Non-Compliant,Medium,SOC,2026-08-02
+APP-156,App-Billing-56,Operations,Network Ops,UAT,Low,No,SaaS,Onboarded,Manual,Integrated,No,No,Not Integrated,Covered,Covered,6,SOX,Compliant,Medium,IAM Team,2026-07-29
+APP-157,App-ERP-57,Legal,Network Ops,DR,Low,No,PaaS,Onboarded,Manual,Integrated,Yes,Yes,Not Applicable,Covered,Not Covered,8,ISO 27001,Exception Approved,Low,DBA Team,2026-08-13
+APP-158,App-CRM-58,Finance,Network Ops,DR,Critical,No,On-Premises,Onboarded,Manual,Not Integrated,Yes,No,Not Integrated,Not Covered,Covered,3,NIST 800-53,Compliant,Medium,Platform Ops,2026-08-01
+APP-159,App-HR-59,Finance,AppSec,Development,High,No,On-Premises,Onboarded,Automatic,Not Integrated,Yes,No,Integrated,Partial,Covered,7,PCI DSS,Compliant,High,Network Ops,2026-07-29
+APP-160,App-Billing-60,Security,SOC,UAT,High,Yes,SaaS,Onboarded,Manual,Exempted,Yes,Yes,Not Integrated,Partial,Not Covered,3,NIST 800-53,Compliant,Critical,SOC,2026-08-03
+APP-161,App-ITSM-61,Legal,Platform Ops,Development,High,No,SaaS,Onboarded,Not Configured,Exempted,Yes,Yes,Integrated,Partial,Partial,0,SOX,Compliant,Critical,DevOps,2026-08-14
+APP-162,App-SIEM-62,Finance,Platform Ops,UAT,High,No,SaaS,Onboarded,Automatic,Partial,Yes,Yes,Not Applicable,Covered,Covered,6,HIPAA,Compliant,Low,AppSec,2026-08-25
+APP-163,App-HR-63,Legal,DevOps,QA,High,Yes,Hybrid,Onboarded,Manual,Integrated,Yes,Yes,Integrated,Covered,Not Covered,3,NIST 800-53,Compliant,High,Network Ops,2026-08-18
+APP-164,App-Vault-64,Marketing,SOC,UAT,Medium,No,PaaS,Onboarded,Automatic,Integrated,Yes,Yes,Integrated,Covered,Partial,6,NIST 800-53,Compliant,Low,AppSec,2026-07-28
+APP-165,App-CRM-65,Engineering,DevOps,UAT,High,Yes,Hybrid,Pending,Exempted,Integrated,Yes,Yes,Not Integrated,Partial,Not Covered,3,ISO 27001,Compliant,Medium,DevOps,2026-08-09
+APP-166,App-ERP-66,Engineering,DevOps,UAT,High,Yes,PaaS,Onboarded,Manual,Integrated,Yes,Partial,Partial,Partial,Covered,7,ISO 27001,Compliant,High,SOC,2026-08-14
+APP-167,App-ERP-67,Finance,DBA Team,QA,Medium,No,SaaS,Onboarded,Automatic,Integrated,Yes,No,Not Integrated,Not Covered,Covered,2,PCI DSS,Compliant,Low,AppSec,2026-08-10
+APP-168,App-HR-68,Engineering,Platform Ops,Production,Critical,Yes,On-Premises,Onboarded,Automatic,Not Integrated,Yes,Yes,Partial,Partial,Covered,2,SOX,Compliant,High,Network Ops,2026-08-16
+APP-169,App-SIEM-69,Finance,DevOps,QA,Low,No,PaaS,Onboarded,Automatic,Not Integrated,Yes,Partial,Not Applicable,Partial,Covered,7,NIST 800-53,Non-Compliant,Medium,DBA Team,2026-08-06
+APP-170,App-ERP-70,Security,DevOps,UAT,Medium,No,IaaS,Exempted,Automatic,Integrated,Yes,Yes,Not Integrated,Partial,Covered,8,HIPAA,Compliant,Low,AppSec,2026-08-05
+APP-171,App-Payroll-71,Operations,DevOps,QA,Medium,No,On-Premises,Onboarded,Manual,Integrated,Yes,No,Partial,Covered,Partial,6,HIPAA,Compliant,High,DBA Team,2026-08-22
+APP-172,App-CRM-72,Operations,DBA Team,DR,High,No,SaaS,Not Onboarded,Automatic,Integrated,No,Partial,Integrated,Partial,Not Covered,7,HIPAA,Non-Compliant,Medium,Platform Ops,2026-08-18
+APP-173,App-CRM-73,Operations,Network Ops,DR,High,No,PaaS,Onboarded,Manual,Integrated,Yes,Yes,Partial,Covered,Not Covered,1,HIPAA,Non-Compliant,High,DBA Team,2026-08-21
+APP-174,App-SIEM-74,Operations,Platform Ops,UAT,High,Yes,Hybrid,Onboarded,Manual,Partial,Yes,No,Integrated,Covered,Covered,4,SOX,Compliant,Medium,SOC,2026-08-16
+APP-175,App-HR-75,Operations,Network Ops,DR,Critical,Yes,SaaS,Onboarded,Not Configured,Exempted,Yes,Yes,Not Integrated,Covered,Partial,2,PCI DSS,Compliant,Medium,Platform Ops,2026-08-20
+APP-176,App-ERP-76,Legal,Network Ops,Production,Low,No,PaaS,Exempted,Manual,Integrated,No,Yes,Partial,Covered,Covered,0,SOX,Non-Compliant,High,Network Ops,2026-08-01
+APP-177,App-SIEM-77,Finance,DevOps,Production,Medium,No,PaaS,Onboarded,Manual,Integrated,Yes,Yes,Not Integrated,Covered,Not Covered,5,ISO 27001,Compliant,Medium,Platform Ops,2026-08-15
+APP-178,App-Billing-78,Marketing,SOC,DR,Critical,Yes,SaaS,Not Onboarded,Automatic,Integrated,No,No,Not Integrated,Not Covered,Not Covered,4,HIPAA,Partially Compliant,High,SOC,2026-08-18
+APP-179,App-CRM-79,Legal,Network Ops,DR,Critical,No,Hybrid,Onboarded,Manual,Integrated,Yes,Yes,Partial,Covered,Not Covered,1,SOX,Non-Compliant,Medium,SOC,2026-08-25

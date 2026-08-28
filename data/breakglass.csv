@@ -1,0 +1,61 @@
+BG_ID,Resource_Name,Resource_Type,Environment,Business_Unit,CyberArk_Onboarding_Status,Safe_Name,Password_Mgmt,Last_Used_Date,Last_Rotation_Date,Next_Rotation_Due,Dual_Control_Required,Post_Use_Review_Status,Auth_Framework_Integration,Compliance_Status,Risk_Rating,Remediation_Owner,Regulatory_Framework,Last_Updated
+BG-5000,Server-BG-000,Service Account,UAT,Finance,Pending,Safe-BG-10,Manual,2026-03-10,2026-07-31,2026-09-06,No,Overdue,Integrated,Compliant,Critical,Platform Ops,ISO 27001,2026-08-18
+BG-5001,Server-BG-001,Server,DR,Finance,Onboarded,Safe-BG-9,Manual,2026-04-12,2026-06-04,2026-09-01,Yes,Not Required,Integrated,Compliant,Medium,Platform Ops,SOX,2026-08-26
+BG-5002,Account-BG-002,Server,DR,Legal,Onboarded,Safe-BG-3,Automatic,2026-07-08,2026-06-12,2026-09-30,No,Completed,Integrated,Compliant,Medium,DevOps,PCI DSS,2026-08-16
+BG-5003,Account-BG-003,Application,Development,Legal,Onboarded,Safe-BG-9,Manual,2026-04-14,2026-08-08,2026-10-25,No,Completed,Integrated,Non-Compliant,High,AppSec,ISO 27001,2026-07-30
+BG-5004,Account-BG-004,Application,Development,Finance,Onboarded,Safe-BG-2,Exempted,2026-07-06,2026-05-29,2026-10-13,Yes,Pending,Integrated,Compliant,Medium,Network Ops,ISO 27001,2026-07-30
+BG-5005,Server-BG-005,Application,Production,Marketing,Not Onboarded,Safe-BG-9,Automatic,2026-05-05,2026-06-08,2026-09-14,Yes,Overdue,Integrated,Non-Compliant,Critical,IAM Team,ISO 27001,2026-07-30
+BG-5006,Server-BG-006,Domain Account,DR,Security,Pending,Safe-BG-1,Not Configured,2026-08-11,2026-06-14,2026-10-23,Yes,Completed,Integrated,Compliant,High,AppSec,SOX,2026-08-03
+BG-5007,Account-BG-007,Application,UAT,Engineering,Onboarded,Safe-BG-9,Exempted,2026-06-05,2026-07-16,2026-10-15,No,Overdue,Integrated,Not Assessed,Critical,SOC,HIPAA,2026-08-18
+BG-5008,Account-BG-008,Server,QA,HR,Onboarded,Safe-BG-9,Not Configured,2026-05-12,2026-06-20,2026-10-21,Yes,Pending,Integrated,Compliant,High,AppSec,NIST 800-53,2026-08-22
+BG-5009,Account-BG-009,Service Account,UAT,Engineering,Onboarded,Safe-BG-9,Manual,2026-04-28,2026-07-20,2026-08-28,Yes,Overdue,Integrated,Non-Compliant,Medium,SOC,NIST 800-53,2026-08-10
+BG-5010,Server-BG-010,Service Account,QA,Marketing,Onboarded,Safe-BG-2,Automatic,2026-06-25,2026-07-05,2026-09-09,Yes,Pending,Not Integrated,Compliant,Medium,Network Ops,HIPAA,2026-08-25
+BG-5011,Account-BG-011,Service Account,Production,HR,Not Onboarded,Safe-BG-9,Automatic,2026-03-24,2026-07-22,2026-10-14,Yes,Completed,Integrated,Non-Compliant,High,IAM Team,ISO 27001,2026-08-11
+BG-5012,Server-BG-012,Application,DR,Marketing,Onboarded,Safe-BG-3,Manual,2026-07-29,2026-07-31,2026-09-20,Yes,Completed,Integrated,Compliant,Critical,Platform Ops,SOX,2026-08-02
+BG-5013,Server-BG-013,Application,UAT,HR,Exempted,Safe-BG-1,Manual,2026-04-21,2026-06-06,2026-10-07,No,Pending,Not Integrated,Exception Approved,High,DevOps,ISO 27001,2026-08-25
+BG-5014,Account-BG-014,Application,Production,Operations,Not Onboarded,Safe-BG-5,Automatic,2026-03-13,2026-08-21,2026-10-18,Yes,Completed,Partial,Non-Compliant,Medium,AppSec,ISO 27001,2026-08-18
+BG-5015,Server-BG-015,Server,QA,Operations,Pending,Safe-BG-3,Automatic,2026-08-02,2026-06-15,2026-10-14,Yes,Completed,Integrated,Compliant,High,AppSec,NIST 800-53,2026-08-05
+BG-5016,Account-BG-016,Application,UAT,Legal,Not Onboarded,Safe-BG-3,Automatic,2026-04-20,2026-06-21,2026-10-15,No,Overdue,Integrated,Non-Compliant,Medium,DevOps,ISO 27001,2026-08-01
+BG-5017,Server-BG-017,Server,Development,Security,Onboarded,Safe-BG-4,Automatic,2026-05-09,2026-08-23,2026-10-14,Yes,Pending,Integrated,Non-Compliant,Critical,SOC,HIPAA,2026-07-31
+BG-5018,Account-BG-018,Domain Account,Production,Marketing,Exempted,Safe-BG-4,Manual,2026-05-20,2026-07-06,2026-09-08,No,Completed,Exempted,Exception Approved,Critical,IAM Team,ISO 27001,2026-07-28
+BG-5019,Server-BG-019,Server,QA,HR,Not Onboarded,Safe-BG-5,Manual,2026-05-21,2026-07-11,2026-10-19,Yes,Completed,Not Integrated,Non-Compliant,Critical,SOC,PCI DSS,2026-08-19
+BG-5020,Account-BG-020,Domain Account,DR,Legal,Onboarded,Safe-BG-8,Manual,2026-03-31,2026-08-23,2026-09-06,No,Completed,Not Integrated,Non-Compliant,Critical,DBA Team,HIPAA,2026-08-16
+BG-5021,Server-BG-021,Application,Production,Legal,Pending,Safe-BG-5,Not Configured,2026-05-04,2026-06-13,2026-09-17,No,Completed,Not Integrated,Compliant,High,Platform Ops,ISO 27001,2026-08-10
+BG-5022,Account-BG-022,Server,QA,Legal,Onboarded,Safe-BG-9,Automatic,2026-03-30,2026-08-18,2026-09-17,Yes,Completed,Integrated,Compliant,Medium,DBA Team,HIPAA,2026-08-21
+BG-5023,Account-BG-023,Domain Account,Development,Engineering,Not Onboarded,Safe-BG-8,Automatic,2026-04-14,2026-08-24,2026-10-22,Yes,Completed,Integrated,Compliant,Critical,SOC,NIST 800-53,2026-08-21
+BG-5024,Account-BG-024,Server,UAT,Legal,Onboarded,Safe-BG-9,Automatic,2026-04-03,2026-06-05,2026-10-17,Yes,Pending,Partial,Partially Compliant,Critical,DBA Team,PCI DSS,2026-07-31
+BG-5025,Server-BG-025,Application,Production,Security,Onboarded,Safe-BG-10,Automatic,2026-07-27,2026-08-20,2026-09-26,Yes,Completed,Not Integrated,Non-Compliant,Critical,Network Ops,ISO 27001,2026-07-29
+BG-5026,Account-BG-026,Service Account,Development,Legal,Exempted,Safe-BG-7,Manual,2026-03-24,2026-06-29,2026-10-25,Yes,Pending,Integrated,Compliant,High,Network Ops,HIPAA,2026-07-30
+BG-5027,Server-BG-027,Domain Account,DR,Engineering,Onboarded,Safe-BG-8,Automatic,2026-04-24,2026-07-01,2026-09-12,No,Overdue,Partial,Non-Compliant,Medium,IAM Team,SOX,2026-08-16
+BG-5028,Account-BG-028,Server,UAT,Security,Not Onboarded,Safe-BG-1,Automatic,2026-03-15,2026-08-15,2026-09-30,Yes,Pending,Partial,Compliant,Critical,DBA Team,SOX,2026-08-18
+BG-5029,Account-BG-029,Service Account,Development,HR,Onboarded,Safe-BG-2,Automatic,2026-06-09,2026-06-26,2026-08-31,Yes,Pending,Not Integrated,Exception Approved,Medium,DBA Team,SOX,2026-07-30
+BG-5030,Account-BG-030,Application,Development,Security,Onboarded,Safe-BG-7,Not Configured,2026-04-12,2026-06-10,2026-09-01,No,Pending,Integrated,Exception Approved,High,Network Ops,NIST 800-53,2026-07-30
+BG-5031,Server-BG-031,Domain Account,UAT,Marketing,Not Onboarded,Safe-BG-5,Automatic,2026-04-17,2026-07-20,2026-09-13,Yes,Completed,Not Integrated,Compliant,Medium,Platform Ops,HIPAA,2026-08-03
+BG-5032,Server-BG-032,Service Account,Production,Finance,Onboarded,Safe-BG-3,Manual,2026-04-26,2026-07-30,2026-10-15,Yes,Pending,Partial,Compliant,Medium,AppSec,HIPAA,2026-08-04
+BG-5033,Server-BG-033,Domain Account,QA,Operations,Onboarded,Safe-BG-7,Exempted,2026-07-04,2026-08-22,2026-09-05,Yes,Completed,Integrated,Exception Approved,High,DevOps,PCI DSS,2026-07-31
+BG-5034,Account-BG-034,Domain Account,UAT,Finance,Onboarded,Safe-BG-6,Automatic,2026-05-30,2026-06-07,2026-10-14,Yes,Completed,Integrated,Compliant,Medium,Platform Ops,SOX,2026-08-17
+BG-5035,Server-BG-035,Application,UAT,Security,Onboarded,Safe-BG-2,Automatic,2026-03-18,2026-06-14,2026-09-19,Yes,Pending,Partial,Compliant,High,Network Ops,NIST 800-53,2026-08-13
+BG-5036,Account-BG-036,Server,UAT,Finance,Exempted,Safe-BG-3,Automatic,2026-03-09,2026-08-14,2026-09-22,Yes,Completed,Partial,Compliant,Medium,Platform Ops,SOX,2026-07-31
+BG-5037,Account-BG-037,Application,QA,Legal,Pending,Safe-BG-10,Automatic,2026-04-05,2026-07-31,2026-10-11,Yes,Completed,Integrated,Not Assessed,High,DevOps,PCI DSS,2026-08-09
+BG-5038,Account-BG-038,Domain Account,DR,Marketing,Exempted,Safe-BG-3,Automatic,2026-03-17,2026-07-13,2026-10-26,No,Pending,Not Integrated,Compliant,Medium,IAM Team,ISO 27001,2026-07-29
+BG-5039,Account-BG-039,Application,QA,Security,Onboarded,Safe-BG-7,Exempted,2026-05-13,2026-07-02,2026-09-01,Yes,Not Required,Not Integrated,Exception Approved,Critical,DBA Team,NIST 800-53,2026-08-22
+BG-5040,Server-BG-040,Domain Account,DR,Legal,Not Onboarded,Safe-BG-4,Automatic,2026-03-29,2026-06-18,2026-08-30,Yes,Not Required,Not Integrated,Not Assessed,High,SOC,HIPAA,2026-08-15
+BG-5041,Server-BG-041,Server,Production,Security,Pending,Safe-BG-10,Automatic,2026-07-19,2026-06-06,2026-09-16,Yes,Completed,Integrated,Compliant,Critical,Platform Ops,SOX,2026-08-24
+BG-5042,Account-BG-042,Application,UAT,Security,Pending,Safe-BG-3,Not Configured,2026-05-22,2026-08-20,2026-09-04,Yes,Completed,Not Integrated,Compliant,Critical,Network Ops,SOX,2026-08-03
+BG-5043,Server-BG-043,Application,Development,Legal,Onboarded,Safe-BG-10,Manual,2026-03-16,2026-08-03,2026-09-28,Yes,Completed,Partial,Partially Compliant,Critical,IAM Team,NIST 800-53,2026-08-20
+BG-5044,Server-BG-044,Service Account,Production,Operations,Not Onboarded,Safe-BG-6,Automatic,2026-07-04,2026-07-23,2026-10-16,Yes,Pending,Partial,Compliant,Critical,Network Ops,ISO 27001,2026-08-19
+BG-5045,Server-BG-045,Service Account,QA,Marketing,Onboarded,Safe-BG-4,Automatic,2026-05-26,2026-07-22,2026-09-21,No,Pending,Integrated,Compliant,High,Platform Ops,PCI DSS,2026-08-15
+BG-5046,Account-BG-046,Service Account,Development,Security,Not Onboarded,Safe-BG-8,Manual,2026-06-06,2026-07-30,2026-09-01,Yes,Pending,Integrated,Non-Compliant,Critical,SOC,HIPAA,2026-08-06
+BG-5047,Account-BG-047,Server,Development,Operations,Onboarded,Safe-BG-9,Not Configured,2026-04-20,2026-08-20,2026-08-31,Yes,Pending,Integrated,Compliant,High,Network Ops,NIST 800-53,2026-08-16
+BG-5048,Account-BG-048,Server,UAT,Operations,Onboarded,Safe-BG-9,Automatic,2026-03-18,2026-08-13,2026-10-18,Yes,Overdue,Integrated,Compliant,Critical,DevOps,HIPAA,2026-08-06
+BG-5049,Server-BG-049,Application,UAT,Operations,Onboarded,Safe-BG-8,Not Configured,2026-05-14,2026-06-05,2026-10-02,Yes,Completed,Partial,Partially Compliant,High,Platform Ops,NIST 800-53,2026-08-15
+BG-5050,Server-BG-050,Domain Account,DR,Finance,Onboarded,Safe-BG-1,Automatic,2026-08-13,2026-08-03,2026-09-29,Yes,Completed,Not Integrated,Not Assessed,Medium,IAM Team,SOX,2026-07-28
+BG-5051,Server-BG-051,Domain Account,UAT,Legal,Onboarded,Safe-BG-5,Not Configured,2026-08-20,2026-07-06,2026-09-23,Yes,Completed,Integrated,Compliant,High,Platform Ops,NIST 800-53,2026-08-23
+BG-5052,Server-BG-052,Application,QA,Operations,Onboarded,Safe-BG-9,Automatic,2026-07-23,2026-08-09,2026-09-14,Yes,Not Required,Integrated,Not Assessed,Critical,DevOps,PCI DSS,2026-08-25
+BG-5053,Account-BG-053,Domain Account,Production,Finance,Exempted,Safe-BG-10,Manual,2026-08-07,2026-08-12,2026-10-15,Yes,Completed,Integrated,Non-Compliant,Critical,DevOps,PCI DSS,2026-08-15
+BG-5054,Account-BG-054,Application,Production,Marketing,Onboarded,Safe-BG-4,Manual,2026-06-22,2026-07-15,2026-10-20,No,Pending,Integrated,Compliant,Critical,SOC,SOX,2026-08-02
+BG-5055,Server-BG-055,Application,QA,Marketing,Onboarded,Safe-BG-5,Manual,2026-05-08,2026-07-03,2026-09-09,Yes,Pending,Not Integrated,Non-Compliant,High,SOC,HIPAA,2026-08-06
+BG-5056,Server-BG-056,Domain Account,UAT,Legal,Not Onboarded,Safe-BG-6,Automatic,2026-04-28,2026-07-28,2026-09-19,Yes,Overdue,Integrated,Compliant,High,SOC,SOX,2026-07-31
+BG-5057,Account-BG-057,Server,UAT,Security,Not Onboarded,Safe-BG-7,Exempted,2026-05-24,2026-07-26,2026-10-22,Yes,Completed,Partial,Compliant,Critical,SOC,SOX,2026-08-19
+BG-5058,Account-BG-058,Service Account,DR,Engineering,Pending,Safe-BG-5,Exempted,2026-05-18,2026-07-02,2026-10-13,Yes,Completed,Integrated,Non-Compliant,High,SOC,PCI DSS,2026-08-02
+BG-5059,Server-BG-059,Service Account,DR,Operations,Onboarded,Safe-BG-7,Automatic,2026-03-28,2026-08-07,2026-09-16,Yes,Completed,Integrated,Compliant,High,SOC,PCI DSS,2026-08-03

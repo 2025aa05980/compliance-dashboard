@@ -1,0 +1,5 @@
+username,password_hash,role,display_name
+exec_admin,exec123,Executive,Executive Leader
+leader_ops,lead123,Leadership,Operations Leader
+ops_analyst,ops123,Operations,Ops Analyst
+rpt_admin,admin123,Admin,Report Administrator

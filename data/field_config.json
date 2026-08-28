@@ -1,0 +1,97 @@
+{
+  "human_accounts": {
+    "Executive": [
+      "Account_ID",
+      "Department",
+      "Compliance_Status",
+      "Risk_Rating",
+      "PAM_Onboarded",
+      "MFA_Status"
+    ],
+    "Leadership": [
+      "Account_ID",
+      "Account_Name",
+      "Employment_Type",
+      "Department",
+      "Compliance_Status",
+      "Risk_Rating",
+      "PAM_Onboarded",
+      "MFA_Status",
+      "Access_Review_Status",
+      "Auth_Framework_Integration"
+    ],
+    "Operations": null,
+    "Admin": null
+  },
+  "privileged_accounts": {
+    "Executive": [
+      "Account_ID",
+      "Privilege_Tier",
+      "Compliance_Status",
+      "Risk_Rating",
+      "PAM_Onboarded",
+      "Rotation_Status"
+    ],
+    "Leadership": [
+      "Account_ID",
+      "Account_Name",
+      "Privilege_Tier",
+      "Privilege_Scope",
+      "Compliance_Status",
+      "Risk_Rating",
+      "PAM_Onboarded",
+      "JIT_Enabled",
+      "Session_Recording",
+      "Auth_Framework_Integration"
+    ],
+    "Operations": null,
+    "Admin": null
+  },
+  "service_accounts": {
+    "Executive": [
+      "Account_ID",
+      "Account_Type",
+      "Compliance_Status",
+      "Risk_Rating",
+      "PAM_Onboarded",
+      "Rotation_Status"
+    ],
+    "Leadership": [
+      "Account_ID",
+      "Account_Name",
+      "Account_Type",
+      "Environment",
+      "Compliance_Status",
+      "Risk_Rating",
+      "PAM_Onboarded",
+      "Hardcoded_Secret_Status",
+      "Auth_Framework_Integration"
+    ],
+    "Operations": null,
+    "Admin": null
+  },
+  "windows_servers": {
+    "Executive": [
+      "Asset_ID",
+      "Environment",
+      "Criticality",
+      "Compliance_Status",
+      "Risk_Rating",
+      "PAM_Onboarded"
+    ],
+    "Leadership": [
+      "Asset_ID",
+      "Asset_Name",
+      "Operating_System",
+      "Environment",
+      "Criticality",
+      "Compliance_Status",
+      "Risk_Rating",
+      "PAM_Onboarded",
+      "Patch_Compliance_Status",
+      "Auth_Framework_Integration"
+    ],
+    "Operations": null,
+    "Admin": null
+  }
+}
