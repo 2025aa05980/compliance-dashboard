@@ -88,6 +88,18 @@ ROLE_NAV_FILTER = {
     "Admin":      [n[2] for n in NAV_ITEMS],
 }
 
+
+def serve_dashboard_route():
+    return app.index()
+
+
+for dashboard_path in [item[2] for item in NAV_ITEMS if item[2] != "/"]:
+    server.add_url_rule(
+        dashboard_path,
+        endpoint=f"dashboard_{dashboard_path.strip('/').replace('/', '_')}",
+        view_func=serve_dashboard_route,
+    )
+
 # ─────────────────────────────────────────────
 # LOGIN PAGE
 # ─────────────────────────────────────────────
