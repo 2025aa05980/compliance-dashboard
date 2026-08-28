@@ -152,7 +152,14 @@ card(slide, 0.75, 1.55, 3.8, 4.65, "Identity coverage", "Human accounts\nPrivile
 card(slide, 4.78, 1.55, 3.8, 4.65, "Asset coverage", "Windows servers\nLinux servers\nNetwork devices\nVirtual / ESXi assets\nApplications\nBreak-glass resources", TEAL, 15)
 card(slide, 8.8, 1.55, 3.8, 4.65, "Operating features", "Executive summary\nCompliance and risk charts\nRole-based navigation\nField-level visibility\nDynamic query\nCSV and Excel export", GREEN, 15); footer(slide, 5)
 
-# 6 Roles
+# 6 Dynamic Query
+slide = prs.slides.add_slide(prs.slide_layouts[6]); add_bg(slide); title(slide, "Dynamic Query: the differentiator", "Unique search and exploration")
+card(slide, 0.75, 1.55, 3.75, 4.55, "Search across domains", "Choose any IAM or asset dataset, then filter by a relevant column and value.\n\nOne experience spans identities, infrastructure, applications, and break-glass resources.", TEAL, 14)
+card(slide, 4.8, 1.55, 3.75, 4.55, "Turn records into insight", "Group results by business unit, environment, account type, asset type, or other available field.\n\nInstantly see compliance and risk patterns in charts.", BLUE, 14)
+card(slide, 8.85, 1.55, 3.75, 4.55, "Take the result with you", "Review the filtered table, then export the exact query result to CSV or Excel.\n\nThis supports investigations, evidence gathering, and focused remediation.", GREEN, 14)
+textbox(slide, "Workflow: Select dataset  >  Filter  >  Group  >  Visualize  >  Export", 1.0, 6.35, 11.3, 0.35, 17, NAVY, True, PP_ALIGN.CENTER); footer(slide, 6)
+
+# 7 Roles
 slide = prs.slides.add_slide(prs.slide_layouts[6]); add_bg(slide); title(slide, "Role-based operating model", "Who uses it")
 roles = [
     ("Executive", "Enterprise posture and key findings", RED),
@@ -168,9 +175,9 @@ for i, (head, body, accent) in enumerate(roles):
     marker.fill.solid(); marker.fill.fore_color.rgb = accent; marker.line.fill.background()
     textbox(slide, head, 1.55, y + 0.12, 2.4, 0.3, 17, NAVY, True)
     textbox(slide, body, 4.0, y + 0.12, 7.6, 0.3, 15, INK)
-textbox(slide, "Visibility is tailored by role; production authorization should be enforced server-side as well.", 1.1, 6.25, 11.0, 0.35, 15, MUTED, False, PP_ALIGN.CENTER); footer(slide, 6)
+textbox(slide, "Visibility is tailored by role; production authorization should be enforced server-side as well.", 1.1, 6.25, 11.0, 0.35, 15, MUTED, False, PP_ALIGN.CENTER); footer(slide, 7)
 
-# 7 Metrics
+# 8 Metrics
 slide = prs.slides.add_slide(prs.slide_layouts[6]); add_bg(slide); title(slide, "Executive view and metrics", "Decision support")
 metrics = [("1,090", "simulated records", BLUE), ("11", "data domains", TEAL), ("13", "dashboard pages", GREEN), ("4", "user roles", AMBER)]
 for i, (value, label, accent) in enumerate(metrics):
@@ -181,22 +188,22 @@ for i, (value, label, accent) in enumerate(metrics):
     textbox(slide, label, x + 0.15, 2.55, 2.35, 0.28, 12, NAVY, True, PP_ALIGN.CENTER)
 card(slide, 1.05, 4.0, 5.25, 1.55, "Compliance posture", "Overall compliance, non-compliant records, exceptions, and not-assessed populations.", GREEN)
 card(slide, 7.0, 4.0, 5.25, 1.55, "Control posture", "PAM onboarding, password management, authentication integration, and risk ratings.", BLUE)
-footer(slide, 7)
+footer(slide, 8)
 
-# 8 Deployment
+# 9 Deployment
 slide = prs.slides.add_slide(prs.slide_layouts[6]); add_bg(slide); title(slide, "Deployment model", "How to share the demo")
 card(slide, 0.8, 1.55, 3.65, 3.75, "Source", "GitHub repository\n\n2025aa05980/compliance-dashboard\n\nVersioned source, requirements, data, and Render configuration.", NAVY, 14)
 card(slide, 4.85, 1.55, 3.65, 3.75, "Build", "Render installs requirements.txt and runs:\n\nGunicorn app:server\n\nThe Dash WSGI server is exposed over HTTPS.", TEAL, 14)
 card(slide, 8.9, 1.55, 3.65, 3.75, "Access", "Share the generated onrender.com URL with your office.\n\nThe free service may sleep when idle, so the first request can be slower.", BLUE, 14)
-textbox(slide, "Recommended for prototype demonstrations; use private enterprise hosting for sensitive IAM data.", 1.0, 6.0, 11.3, 0.42, 17, RED, True, PP_ALIGN.CENTER); footer(slide, 8)
+textbox(slide, "Recommended for prototype demonstrations; use private enterprise hosting for sensitive IAM data.", 1.0, 6.0, 11.3, 0.42, 17, RED, True, PP_ALIGN.CENTER); footer(slide, 9)
 
-# 9 Security
+# 10 Security
 slide = prs.slides.add_slide(prs.slide_layouts[6]); add_bg(slide); title(slide, "Security posture", "Important boundary")
 card(slide, 0.75, 1.55, 5.7, 4.45, "Current prototype", "• Demo credentials in project data\n• Session-based browser state\n• CSV-backed sample data\n• UI role filtering\n• Suitable for non-sensitive demonstrations", AMBER, 15)
 card(slide, 6.85, 1.55, 5.7, 4.45, "Production target", "• Entra ID / Okta SSO and MFA\n• Server-side signed sessions\n• Backend authorization on callbacks\n• Hashed credentials or no local passwords\n• Secure database / APIs\n• Audit logs, secrets management, private hosting", GREEN, 15)
-textbox(slide, "Conclusion: Dash is a reasonable internal dashboard framework; this implementation requires hardening before restricted production use.", 1.0, 6.3, 11.3, 0.4, 15, NAVY, True, PP_ALIGN.CENTER); footer(slide, 9)
+textbox(slide, "Conclusion: Dash is a reasonable internal dashboard framework; this implementation requires hardening before restricted production use.", 1.0, 6.3, 11.3, 0.4, 15, NAVY, True, PP_ALIGN.CENTER); footer(slide, 10)
 
-# 10 Roadmap
+# 11 Roadmap
 slide = prs.slides.add_slide(prs.slide_layouts[6]); add_bg(slide, NAVY); title(slide, "Recommended next steps", "From prototype to production")
 roadmap = [
     ("01", "Secure identity", "Integrate corporate SSO, MFA, and conditional access."),
