@@ -22,6 +22,7 @@ Production-grade IAM & PAM compliance reporting dashboard built with **Plotly Da
 - **Break-glass resource governance** dedicated page
 - **Dynamic Query** — ad-hoc cross-domain exploration with grouping + charting
 - **CSV & Excel export** with conditional colour-coding on every page
+- **Downloadable presentation** explaining the dashboard, architecture, deployment, and security roadmap
 - **Swap data layer**: replace `utils/data_loader.py` `load()` with SQLAlchemy / CyberArk API / CMDB REST calls
 
 ## Quick start
@@ -31,6 +32,12 @@ python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 .venv/bin/python utils/generate_data.py   # regenerate flat files
 .venv/bin/python app.py                    # runs on http://localhost:8050
+```
+
+Generate the project presentation:
+
+```bash
+.venv/bin/python utils/generate_presentation.py
 ```
 
 ## Deploy on Render
