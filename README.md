@@ -33,6 +33,14 @@ python3 -m venv .venv
 .venv/bin/python app.py                    # runs on http://localhost:8050
 ```
 
+## Deploy on Render
+
+This Dash app includes a `render.yaml` deployment configuration. To deploy it,
+sign in to Render, choose **New > Blueprint**, connect the GitHub repository,
+and select the `main` branch. Render will install the requirements and start
+the app with Gunicorn. The generated `onrender.com` URL can be shared with
+your office.
+
 ## Demo credentials
 
 | Username | Password | Role |
